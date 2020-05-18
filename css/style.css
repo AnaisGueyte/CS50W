@@ -1,0 +1,141 @@
+/* GLOBAL  */
+
+body{
+	font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Source Sans Pro';
+	margin-bottom: 1em;
+}
+
+p, a, li, span, td, th{
+	font-family: 'Merriweather';
+}
+
+a{
+    color: #383582!important;
+}
+
+.w-80{
+    width: 80%;
+    margin: auto;
+}
+
+.t-center{
+    text-align: center;
+}
+
+.t-left{
+    text-align: left;
+}
+
+.t-right{
+    text-align: right;
+}
+
+
+
+.cta-container {
+	margin: 5em auto;
+}
+
+.cta-container a{
+    font-size: 1.15rem;
+}
+
+
+.btn-solid-purple{
+    color: #fff!important;
+    border-color: #383582!important;
+    background-color: #383582!important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.15rem;
+}
+
+.btn-solid-purple:hover{
+    border: 2px solid #383582!important;
+    color: #383582!important;
+    background-color: #fff!important;
+}
+
+
+.btn-outline-pink{
+	color: #E94A5C!important;
+    border-color: #E94A5C!important;
+    background-color: #fff!important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.15rem;
+}
+
+.btn-outline-pink:hover{
+    border: 2px solid #E94A5C!important;
+    color: #fff!important;
+    background-color: #E94A5C!important;
+}
+
+
+/* MAIN  */
+
+/* HERO */
+
+main .hero{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+main .hero h1{
+	color: #383582;
+    font-weight: bold;
+    font-size: 4.5rem;
+    margin-top: 1.15em;
+}
+
+main #homepageHero h2{
+    font-style: italic;
+}
+
+main .hero img{
+    width: 100%;
+}
+
+
+/* ABOUT */
+
+main .table{
+    margin-top: 2em;
+}
+
+main .table-trips .d-bg{
+    background-color: #f5f5f5;
+}
+
+main .table-trips img{
+    width: 200px;
+}
+
+main .w-travel{
+    margin-top: 2em;
+}
+
+
+main .w-travel img{
+    padding:1em;
+    background-color: #f0f0f0;
+    margin: 1em;
+}
+
+/* MEDIA QUERIES */
+
+
+@media only screen and (max-width: 680px) {
+    main .table tr{
+        display: grid;
+    }
+
+    .w-80{
+        width: 90%;
+    }
+}
